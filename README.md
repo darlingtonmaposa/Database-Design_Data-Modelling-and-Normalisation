@@ -1,13 +1,12 @@
-# SQL-for-Data-Engineering
+# Database Design: Data Modelling and Normalisation
 
-Almost all major tech organizations use SQL. Even Fortune 500 businesses (Facebook, Google, and Amazon) that have created their own high-performance database systems also typically use SQL to query data and conduct analytics.
-In fact, approximately 70% of professional developers who work with data (e.g., data engineer, data scientist, data analyst, etc.) use SQL, compared to 61.7% who use Python, making it the third most popular programming language altogether.
+Database design and the creation of an entity relationship diagram (also known as an "ERD" or data model) is an important part of the application development lifecycle.
+An accurate and up-to-date data model can serve as an important reference tool for DBAs, developers, and other members of a JAD (joint application development) team.
  
-Why Learn SQL for Data Engineering?
-* Learning SQL can help data engineers work more effectively with data analysts and data scientists as they share a common language for querying and analysing data.
+Effective database designers will keep in mind the principles of normalization while they design a database. Normalization is a database design approach that seeks the following four objectives:
+1. minimization of data redundancy,
+2. minimization of data restructuring,
+3. minimization of I/O by reduction of transaction sizes, and
+4. enforcement of referential integrity.
 
-* SQL skills are highly transferable as they can be applied to wide range of databases and data management tools, making it a valuable data engineering skill for people working in a variety of industries and business contexts.
-
-* Knowing SQL helps data engineers optimize data infrastructures for better performance and efficiency and also develop more effective data models and data warehousing solutions.
-
-  The project showcases the use of SQL in designing and managing a database for an online COVID-19 inventory store. It showcases how we can optimise database performance by removing anomalies and unnecessary dependencies by using database normalisation. 
+The project showcases the use of SQL in designing and managing a database for an online COVID-19 inventory store. It showcases how we can optimise database performance by removing anomalies and unnecessary dependencies by using database normalisation from 1NF to 3NF. 
